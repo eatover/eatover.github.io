@@ -36,21 +36,12 @@
         <img class="sautePerso" src="assets/Groupe 448.png" alt="saute2">
     </section>
     <section class="faireUnDon">
-        <div id="donate-button-container">
-            <div id="donate-button"></div>
-            <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
-            <script>
-            PayPal.Donation.Button({
-            env:'production',
-            hosted_button_id:'BJJUVJWZF35BJ',
-            image: {
-            src:'https://pics.paypal.com/00/s/ZmZmNmUwNTMtYjE1NC00MDIyLWJjNzEtYzE4YmYwMTUxMjM5/file.PNG',
-            alt:'Donate with PayPal button',
-            title:'PayPal - The safer, easier way to pay online!',
-            }
-            }).render('#donate-button');
-            </script>
-            </div>
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="hosted_button_id" value="BJJUVJWZF35BJ" />
+            <input type="image" src="https://pics.paypal.com/00/s/ZmZmNmUwNTMtYjE1NC00MDIyLWJjNzEtYzE4YmYwMTUxMjM5/file.PNG" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/en_FR/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+            
             
             
     </section>
