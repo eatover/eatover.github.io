@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+
+body{
+    font-family: 'Anybody';
+}
+
+div.images{
+
+    display: flex;
+     margin-left: 63pc;
+
+
+
+}
+
+
+
+#rectangle{
+    height: 22pc;
+}
+
+h1.texte1{
+    position: absolute;
+    width: 439px;
+}
+
+div.bloc1{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    
+}
+
+div.bloc2{
+    margin-top: 74px;
+}
+
+#lignes_sous_les_titres{
+    display: flex;
+    width: 139px;
+    margin-left: -105px;
+}
+
+div.titre2{
+    text-align: center;
+}
+
+p.texte2{
+    text-align: center;
+    line-height: 1.5;
+}
+
+div.blocimages{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 48px;
+}
+
+.remise{
+    width: 200px;
+    height: 200px;
+}
+
+div.bloc3{
+    margin-top: 71px;
+}
+
+p.texte3{
+    text-align: center;
+}
+
+#emplacement{
+    width: 87px;
+    height: 80px;
+}
+
+p.para3{
+    line-height: 4;
+    margin-top: -16px;
+}
+
+button.button{
+    margin-top: 141px;
+    width: 217px;
+}
+
+div.sousbloc3{
+    display: flex;
+    justify-content: center;
+    margin-top: 91px;
+}
+
+div.soustexte3{
+    display: flex;
+    text-align: center;
+}
+
+#restau{
+    height: 169px;
+    margin-left: 65px;
+}
+
+div.bloc4{
+    margin-top: 48px;
+}
+
+div.sousbloc4{
+    display: flex;
+    justify-content: center;
+    place-content: space-evenly;
+}
+
+#damejaune{
+    height: 239px;
+}
+
+#manuel{
+    height: 239px;
+}
+
+h3.soustitre4{
+    text-align: center;
+}
+
+p.parabloc4{
+    text-align: center;
+}
+
+div.sousimages4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+}
+
+#shooting{
+    width: 329px;
+}
+
+#lecture{
+    height: 205px;
+}
+

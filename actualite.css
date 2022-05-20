@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300&display=swap');
+
+#container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* .navbar {
+    width: 66%;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navLink:hover{
+    color: #34CBCE;
+    text-decoration: underline;
+} */
+
+#ligne1 {
+    position: relative;
+    background-image: url(assets/actualite/video.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 130px;
+    height: 130px;
+}
+
+#ligne1:hover{
+    background-image: url(assets/actualite/video.gif);
+    cursor: pointer;
+    background-size: 100%;
+    object-fit: cover;
+
+}
+
+#ligne2 {
+    position: relative;
+    background-image: url(assets/actualite/tablier.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 130px;
+    height: 130px;
+}
+
+#ligne2:hover{
+    background-image: url(assets/actualite/tablier.gif);
+    cursor: pointer;
+}
+
+#ligne3 {
+    position: relative;
+    background-image: url(assets/actualite/a-lechelle-mondiale.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 130px;
+    height: 130px;
+}
+
+#ligne3:hover{
+    background-image: url(assets/actualite/a-lechelle-mondiale.gif);
+    cursor: pointer;
+}
+#ligne4 {
+    position: relative;
+    background-image: url(assets/actualite/calendrier.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 130px;
+    height: 130px;
+}
+
+#ligne4:hover{
+    background-image: url(assets/actualite/calendrier.gif);
+    cursor: pointer;
+}
+#ligne5 {
+    position: relative;
+    background-image: url(assets/actualite/vue-sur-la-rue.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 130px;
+    height: 130px;
+}
+
+#ligne5:hover{
+    background-image: url(assets/actualite/vue-sur-la-rue.gif);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#menu-icon {
+    display: none;
+}
+
+#actuImg {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 140px;
+
+}
+
+#actuImgText {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Anybody';
+    height: 140px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    
+#actuText {
+    display: flex;
+    justify-content: center;
+    font-family: 'Anybody';
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#filter {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Anybody';
+}
+
+#filter p {
+    padding-left: 150px;
+}
+
+#filterBy {
+    font-family: 'Anybody';
+    font-weight: bold;
+}
+
+.imgRow {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+
+.imgTitle {
+    font-family: 'Anybody';
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.imgSubTitle {
+    margin: 0%;
+    font-family: 'Anybody';
+}
+
+.imgRedirect {
+    cursor: pointer;
+}
+
+.imgRow-col img {
+    background-image: url(assets/Encadrement.png);
+}
+
+
+@media only screen and (max-width: 700px) {
+    .navbar{
+        display: none;
+    }
+
+    .navbar a {
+        display: none;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    #beginImg {
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    #actuImg {
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    #actuImgText {
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    #filter {
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    .row {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    .container {
+        width: 100%;
+        position: absolute;
+        top: 75px;  
+        right: 0;
+        z-index: 2;
+        margin: 50px 0;
+    }
+    
+    .container #imgRow{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .imgRow-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+} 
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+
+footer{
+    font-family: 'Anybody';
+    padding: 50px;
+    padding-bottom: 0px;
+    background-color: #FAFAFA;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.footerSMR{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerLinkContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy{
+    align-self: center;
+}
+
+.rateUs{
+    width: 200px;
+    height: 40px;
+}
+
+.reseauSocial{
+    height: 30px;
+}
+
+.footerLinkSubContainer{
+    font-size: 20px;
+    /* background-image: url("assets/Rectangle\ 188.png");
+    background-repeat: no-repeat; */
+    display: flex;
+    align-items: center;
+}
+
+.footerLogo{
+    display: flex;
+}
+
+#lf{
+    height: 50px;
+    width: 200px;
+}

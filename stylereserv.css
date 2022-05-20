@@ -1,0 +1,202 @@
+
+
+h1{
+    text-align: center;
+}
+
+div.illustration{
+    text-align: center;
+}
+img.encadré{
+    width: 479px;
+}
+
+div.eventstep{
+    margin-top: -33px;
+    word-spacing: 24px;
+}
+
+img.illustration{
+    width: 313px;
+    margin-top: 131px;
+}
+
+div.block{
+
+    margin-top: -530px;
+
+}
+
+div.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 122px;
+    margin-left: 6px;
+}
+
+img#ligne1{
+    width: 155px;
+    margin: left -53px; ;
+}
+img#ligne{
+    width: 155px;
+    margin-left: 412px;
+}
+
+img#ligne3{
+    width: 163px;
+    margin-left: 39px;
+}
+
+img#ligne4{
+    width: 163px;
+    margin-left: 39px;
+}
+
+img.logo{
+    width: 90px;
+}
+
+.condition{
+    text-align:right;
+    font-size: 10px;
+    margin-right: 76px;
+    margin-top: 37px;
+}
+
+.btn{
+margin: 6px; 
+text-align: center;
+margin-top: 116px;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+}
+li.li{
+    list-style: none;
+    text-align: center;
+    margin-left: 65px;
+}
+
+img.illustration{
+    width: 313px;
+    margin-top: 131px;
+}
+
+input.nom{
+    width: 58px;
+    margin-left: -88px;
+    border: white;
+
+}
+
+input.prenom{
+    width: 72px;
+    border: white;
+}
+
+input.tel{
+    width: 97px;
+    margin-left: -76px;
+    border: white;
+}
+
+input.adressem{
+    width: 167px;
+    border: white;
+    margin-left: 38px;
+}
+
+div.infoperso{
+    margin-bottom: 20px;
+    margin-top: -32px;
+    margin-right: 592px;
+}
+
+
+li.prenom{
+    margin-left: 347px;
+    margin-top: -38px;
+}
+
+div.contact{
+    margin-right: 635px;
+    margin-top: 34px;
+}
+
+li.li2{
+    margin-top: 24px;
+}
+
+div.daterepas{
+    margin-left: 587px;
+    margin-top: -252px;
+    margin-bottom: 50px;
+}
+
+div.heure{
+    margin-left: 586px;
+}
+
+img.illustrationh{
+    margin-left: 29.5cm;
+    width: 313px;
+    margin-top: 26px;
+}
+
+div.sou-bloc{
+    margin-top: -379px;
+    display: inline-grid;
+    margin-left: 302px;
+}
+
+div.enfant{
+    margin-top: -79px;
+    margin-left: 173px;
+}
+
+input.counter{
+    margin-left: 5px;
+    text-align: center;
+    border: white;
+    width: 78px;
+}
+
+div.nombredepersonne{
+    margin-right: 892px;
+}
+
+div.sous-bloc2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 312px;
+    margin-top: 62px;
+}
+
+img.food{
+    width: 79px;
+}
+
+h1.choix{
+    text-align: left;
+    margin-top: 41px;
+}
+
+h3.condition{
+    text-align: left;
+    font-size: 13px;
+
+}
+
+input.counter1{
+    width: 25px;
+    height: 18px;
+    margin: 20px;
+}
+
+a.reservation{
+    color: #EE863F;
+}

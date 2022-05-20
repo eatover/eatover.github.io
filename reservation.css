@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300&display=swap');
+
+.reservation {
+    font-family: 'Anybody';
+}
+
+#reservationTitle {
+    display: flex;
+    justify-content: center;
+    font-family: 'Anybody';
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.reservationImg {
+    display: flex;
+    justify-content: center;
+    /* height: 350px; */
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.reservationImg img{
+    width: 300px;
+}
+
+.reservationImg p {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.img\&Location {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+.reservationLocation {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Anybody';
+}
+
+.reservationBoldTitle {
+    font-weight: bold;
+}
+
+.locationInfo {
+    font-weight: lighter;
+    font-style: italic;
+    padding-left: 5px;
+}
+
+.button2 {
+    width: 170px;
+}
+
+.reservationDesc {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hoursBold {
+    font-weight: bold;
+    display: flex;
+}
+
+.menuContainer {
+    font-size: 18px;
+}
+
+.menuTitle {
+    font-weight: 600;
+}
+
+.menuPadLeft p {
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+
+
+
+.buttonEnd {
+    display: flex;
+    justify-content: center;
+}

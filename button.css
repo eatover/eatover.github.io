@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Anybody', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Anybody:wght@600&display=swap');
+}
+
+.button {
+    display: inline-block;
+    background-color: #ee863f;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    height: 40px;
+
+    text-decoration: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #F6BC03;
+}
+

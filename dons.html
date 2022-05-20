@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header.css">
+
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="dons.css">
+
+    <title>EatOver - Dons</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html"><img class="Hlogo" src="assets/logo.png" alt="LOGO"></a>
+            <a class="navLink" href="concept.html">Concept</a>
+            <a class="navLink" href="dons.html">Faire un don</a>
+            <a class="navLink" href="actualite.html">Actualité</a>
+            <a class="navLink" href="reservation.html">Réserver</a>
+            <a class="navLink" href="contact.html">Contact</a>
+        </div>
+    </header>
+<!-- END OF HEADER -->
+
+    <section class="bloc1">
+        <img class="sautePerso" src="assets/Groupe 683.png" alt="saute1">
+        <div class="containerCount">
+            <img class="logoBloc1" src="assets/logo.png" alt="logo">
+            <h2>C'est déjà:</h2>
+            <div class="sommeCont"><div class="NCvalue" akhi="9999">0</div><p id="euro">€</p></div>
+            <p>de dons recolté</p>
+        </div>
+        <img class="sautePerso" src="assets/Groupe 448.png" alt="saute2">
+    </section>
+    <section class="faireUnDon">
+        <div id="donate-button-container">
+            <div id="donate-button"></div>
+            <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+            <script>
+            PayPal.Donation.Button({
+            env:'production',
+            hosted_button_id:'LZ6EYKTJUGVYA',
+            image: {
+            src:'https://pics.paypal.com/00/s/M2JmZjQ3YjItMTZjYy00OTI0LTk0OWItZjI0ODVjOWYyYmQx/file.PNG',
+            alt:'Bouton Faites un don avec PayPal',
+            title:'PayPal - The safer, easier way to pay online!',
+            }
+            }).render('#donate-button');
+            </script>
+            </div>
+            
+    </section>
+    <h2 class="donAsk">Faire un don oui, mais pourquoi?</h2>
+
+    <section class="ContentDons">
+        <div class="raison">
+            <img class="imageExp" src="assets/réflexion.png" alt="image expliquative">
+            <div class="textsD"><p>Les dons permettent de financer nos diverses actions humanitaires. Chaque don est différent et unique, plusieurs formes sont possibles. Pas besoin de donner de l’argent pour aider, vous pouvez donner de votre temps. Toutes les formes de don peuvent être faites de façon ponctuelle ou récurrente. </p></div>
+        </div>
+        <div class="raison">
+            <div class="textsD textAlignRight"><h2>Réfugiés</h2><p>Avec une partie des dons récoltés nous avons comme objectif de rémunérer les réfugier que nous embauchons par ce moyen. </p></div>
+            <img class="imageExp" src="assets/sousous.png" alt="image expliquative">
+        </div>
+        <div class="raison">
+            <img class="imageExp" src="assets/medical.png" alt="image expliquative">
+            <div class="textsD"><h2>Médical</h2><p>Votre don peut notamment être utilisé pour financer les aides soignantes et médicales qui peuvent apporter à de nombreux réfugiés suite à des blessures causés par la guerre ou un mauvais état de santé qui a entrainé des maladies.</p></div>
+        </div>
+        <div class="raison">
+            <div class="textsD textAlignRight"><h2>Nourriture</h2><p>Un autre type d’action humanitaire peut être financé grâce à votre don, celui d’offrir à manger 
+                aux réfugiés dans le besoin.
+                Pour un don de 100€, il est possible de nourrir plus de 200 personnes.</p></div>
+            <img class="imageExp" src="assets/nourriture.png" alt="image expliquative">
+        </div>
+    </section>
+    
+
+    <h2 class="soutenuPar">Soutenu par:</h2>
+
+    <div class="partnerSlider">
+        <img class="opacity" src="./assets/angle-pointant-vers-la-g.png" alt="fleche de gauche">
+        <div class="partnerContainer">
+                <div class="subPartnerContainer"> 
+                    <a href="https://tremplin17.fr/"><img class="slideLogo" src="./assets/part1.png"></a>
+                    <a href="http://www.ami-nimes.fr/"><img class="slideLogo" src="./assets/part2.png"></a>
+                    <a href="https://ifi.lacimade.org/"><img class="slideLogo" src="./assets/part3.png"></a>
+                    <a href="http://rse.essec.edu/solidarite-internationale"><img class="slideLogo" src="./assets/part4.png"></a>
+                    <a href="https://mabanque.bnpparibas/"><img class="slideLogo" src="./assets/part5.png"></a>
+                    <a href="https://lyon.catholique.fr/diocese/service-diocesain/aclaam/"><img class="slideLogo" src="./assets/part6.png"></a>
+                    <a href="https://singafrance.com/"><img class="slideLogo" src="./assets/part7.png"></a>
+                </div>
+        </div>
+        <img class="opacity" src="./assets/angle-pointant-vers-la-droite.png" alt="fleche de droite">
+    </div>
+<!-- START OF FOOTER -->
+    <footer>
+        <div class="footerLogo"><img id="lf" src="assets/logo.png" alt="logo"></div>
+        <div class="footerLinkContainer">
+            <div class="footerLinkSubContainer">
+                <img src="assets/Rectangle 188.png" alt="">
+                <div>
+                <p>contact@trempetacuillere.com</p>
+                 <p>6 Place Saint Nizier 69002 LYON</p>
+                 <p>06 12 23 34 45</p>
+                </div>
+            </div>
+            <div class="footerLinkSubContainer">
+                <img src="assets/Rectangle 188.png" alt="">
+                <div>
+                    <p>Politique de confidentialité</p>
+                    <p>Gérer mes cookies</p>
+                    <p>CGV</p>
+                </div>
+            </div>
+            <div class="footerLinkSubContainer">
+                <img src="assets/Rectangle 188.png" alt="">
+                <div>
+                    <p>Newsletter</p>
+                    <form action="#">
+                        <input class = "orangeUnderline" type="email" placeholder="email">
+                        <input type="submit" value="S'abonner">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footerSMR">
+            <div class="reseauSocial">
+                <a href="https://facebook.com"><img src="assets/facebook.png" alt="rs"></a>
+                <a href="https://instagram.com"><img src="assets/instagram.png" alt="rs"></a>
+                <a href="https://linkedin.com"><img src="assets/linkedin.png" alt="rs"></a>
+                <a href="https://tiktok.com"><img src="assets/tiktok.png" alt="rs"></a>
+                <a href="https://youtube.com"><img src="assets/youtube.png" alt="rs"></a>
+            </div>
+            <img class="rateUs" src="assets/rateUs.png" alt="rateUs">
+        </div>
+        <p class="copy">2022 &copy;Copyright ⎢EatOver</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
