@@ -40,17 +40,19 @@
                     <img class="four" src="assets/illu_1.svg" alt="quatres personnes qui parlent">
                 </div>
                 <div class="homeConceptRight">
-                    <p class="HCRT">Chaque année, en France, des centaines de milliers de personnes étrangère sont accueillies. N’ayant pas la possibilité de travailler pour un grand nombre d’entre eux, ils sont coupés de toute vie sociale et active.
+                    <p class="HCRT">Chaque année, des centaines de milliers de personnes fuis leur pays d'origine en raison d'une crainte de persécution, de conflit, de violence ou d'autres circonstances. En France nous acceptons et hébergeons grands nombre d'entre eux. Mais comment les intégrer ?
                     </p>
-                    <p class="HCRT">C’est pour cela que nous avons créé EatOver, des restaurants éphémère qui engage des réfugiés pour y travailler et leur donner un nouvel élan.
+                    <p class="HCRT">Pour cela nous avons créé <b>EatOver</b>, des <b>restaurants éphémères</b> qui engagent des <b>réfugiés</b> pour y travailler et leur donner un nouvel élan.
                     </p>
-                    <p>Par le biais de ce restaurant, vous pourrez non seulement vivre une expérience de partage de culture unique.            
+                    <p>Par le biais de ce restaurant, vous pourrez <b>vivre</b> une <b>expérience</b> de <b>partage de culture</b> unique, et si vous le souhaitez faire un don sur ce site.          
                     </p>
                 </div>
             </div>
             <!-- //////// -->
             <div class="homeConceptBottom">
-                <button class="button">En savoir plus</button>
+                <form action="concept.html">
+                    <input type="submit" value="en savoir plus" class="button">
+                </form>
             </div>
             <!-- //////// -->
         </div>
@@ -63,13 +65,13 @@
     </section>
     <section class="ObjectifsContent">
         <div class="OCleft">
-            <p class="OCborderDown"><mark>Aider les réfugiés</mark> à se réinsérer<br>dans la vie social  </p>
+            <p class="OCborderDown"><mark>Aider les réfugiés</mark> à se réinsérer<br>dans la vie sociale  </p>
             <p class = "pdown OCborderUp"><mark>Créer une communauté</mark> de <br>donnateurs autour de notre<br>secteur d’activité</p>
         </div>
         <img id="platSVG" src="./assets/paela.png" alt="paela">
         <div class="OCright">
             <p class ="PPPD OCborderUp"> <mark>Partager</mark> une culture</p>
-            <p class ="OCborderUp"> <mark>50%</mark> d'aliments bio</p>
+            <p class ="OCborderUp"> Avoir <mark>50%</mark> de nourriture bio</p>
             <p class = "pdown OCborderDown"><mark>Sensibiliser</mark> sur le cas des réfugiés</p>
         </div>
 
@@ -77,15 +79,17 @@
     <section class="doubleButton">
         <div class="DBC angleHG">
             <h2>Venir Manger</h2>
-            <p>Réservez de suite votre table et<br> venez profiter d’une expérience<br> unique et éphémère<br> accompagnée par des personnes<br> passionnées et impliquées. 
-            </p>
-            <button class="button">Réserver</button>
+            <p>Venez profiter d’une <b>expérience<br> unique, entourés</b> par des<br> <b>personnes passionnées</b> et<br>chaleureuses.</p>
+            <form action="reservation.html">
+                <input type="submit" value="Reserver" class="button">
+            </form>
         </div>
         <div class="DBC angleBD">
             <h2>Faire un don</h2>
-            <p>Pas besoin de venir manger au<br> restaurant pour nous aider. </p>
-            <form action="don.html">
-                <button type="submit"class="button">Don libre</button>
+            <p>Vous ne pouvez pas venir<br> manger avec nous ?<br>  
+                Aidez nous tout de même en<br>  faisant un don.</p>
+            <form action="dons.html">
+                <input type="submit" value="Don libre" class="button">
             </form>
         </div>
     </section>
@@ -93,9 +97,9 @@
     <section class="numbers">
         <h2>Notre fierté</h2>
         <div class="numbersContent" onshow="defile()">
-            <div><div class="NCvalue" akhi="99999">0</div><p>Evenements créés</p></div>
-            <div><div class="NCvalue" akhi="99999">0</div><p>Réfugiés aidés</p></div>
-            <div><div class="NCvalue" akhi="99999">0</div><p>Dons récoltés</p></div>
+            <div><div class="NCvalue" akhi="3">0</div><p>Evenements créés</p></div>
+            <div><div class="NCvalue" akhi="60">0</div><p>Réfugiés aidés</p></div>
+            <div><div class="NCvalue" akhi="48000">0</div><p>Euros de dons récoltés</p></div>
           </div>
     </section>
 
@@ -161,7 +165,7 @@
         <p class="copy">2022 &copy;Copyright ⎢EatOver</p>
     </footer>
 
-        
+    
         
     <script src="index.js"></script>
     <script src="fireworks.js"></script>
